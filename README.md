@@ -166,7 +166,7 @@ A loss of 3.1491 against a random baseline of 6.24 demonstrates the Transformer 
 
 **Mini-GPT training log (epoch-by-epoch convergence):**
 
-![GPT Training Log](assets/GPT_Transformer_Loop)
+![GPT Training Log](assets/GPT_Transformer_Loop.png)
 
 ### Generated Faces
 
