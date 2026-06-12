@@ -237,12 +237,5 @@ The full pipeline is provided in `vqvae_gpt_celeba.ipynb`. Open in Jupyter or Co
 
 > The pipeline includes automatic mixed-precision, multi-GPU support, and explicit CUDA cache clearing at the start of each training cell to prevent OOM crashes from zombie memory in interactive environments.
 
----
-
-## Documentation
-
-For an in-depth technical walkthrough covering the architectural derivation from standard Autoencoders through VAEs to VQ-VAE, the mathematics of the Straight-Through Estimator, the EMA codebook engineering, and full experimental analysis, refer to `project_documentation.pdf` included in this repository.
-
----
 
 **Author:** Vishal | IIT Kharagpur
