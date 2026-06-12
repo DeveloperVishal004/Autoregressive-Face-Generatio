@@ -143,7 +143,7 @@ base_model = model.module if hasattr(model, 'module') else model
 
 **Reconstruction & VQ Codebook loss curves:**
 
-![Reconstruction Loss](assets/vqvae_loss_curves.png)
+![Reconstruction Loss](assests/vqvae_loss_curves.png)
 
 > The reconstruction MSE (left) decays sharply and plateaus at **0.0829**. The VQ Codebook loss (right) rises monotonically — this is expected and healthy behavior. As the EMA-updated codebook vectors spread out to cluster increasingly diverse facial features, the average distance between encoder outputs and their nearest codebook entries grows. A codebook that has stopped spreading would indicate collapse, not convergence.
 
