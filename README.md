@@ -149,7 +149,7 @@ base_model = model.module if hasattr(model, 'module') else model
 
 **Codebook utilization histogram — all 512 entries active:**
 
-![Codebook Histogram](assets/codebook_histogram.png)
+![Codebook Histogram](assests/codebook_histogram.png)
 
 > Every bar is populated with no zero-gap columns across the full 0–511 index range. The non-uniform distribution (some tokens used far more frequently than others) is natural and meaningful: high-frequency tokens represent common facial patches such as background regions and skin tones, while rarer tokens capture specific textures. This is the direct result of EMA + Laplace smoothing preventing dead codes.
 
