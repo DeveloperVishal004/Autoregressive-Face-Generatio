@@ -172,7 +172,7 @@ A loss of 3.1491 against a random baseline of 6.24 demonstrates the Transformer 
 
 The system generates structurally coherent faces with correct bilateral symmetry, accurate relative placement of eyes, nose, and mouth, and separated foreground/background regions — purely from autoregressive prediction of 64 integers.
 
-![Generated Faces](assets/ai_imagined_faces.png)
+![Generated Faces](assests/ai_imagined_faces.png)
 
 > 16 entirely novel faces autoregressively hallucinated from a single SOS token. The model successfully learned bilateral facial symmetry, correct relative positioning of eyes/nose/mouth, coherent hair and skin color regions, and foreground/background separation — using only a sequence of 64 discrete integers. No face in this grid exists in the CelebA dataset.
 
